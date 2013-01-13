@@ -15,5 +15,5 @@ Hash(db).forEach(function(list,key) {
         cards[name] = card;
     });
 });
-
+console.log(cards['copper']);
 exports = module.exports = cards;

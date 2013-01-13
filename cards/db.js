@@ -1,4 +1,17 @@
 var db = {
+  "basecards" : [
+    { "name" :  "colony","expansion":'basecards'},
+    { "name" :  "copper","expansion":'basecards'},
+    { "name" :  "curse","expansion":'basecards'},
+    { "name" :  "duchy","expansion":'basecards'},
+    { "name" :  "estate","expansion":'basecards'},
+    { "name" :  "gold","expansion":'basecards'},
+    { "name" :  "platinum","expansion":'basecards'},
+    { "name" :  "potion","expansion":'basecards'},
+    { "name" :  "province","expansion":'basecards'},
+    { "name" :  "silver","expansion":'basecards'},
+    { "name" :  "trash","expansion":'basecards'}
+  ],
   "Prosperity" : [
     {
       "description": "When you play this, it's worth 1 Coin per Treasure card you have in play (counting this).", 
