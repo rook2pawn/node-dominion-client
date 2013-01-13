@@ -1,0 +1,19 @@
+mogrify -set filename:foobar %t -normalize -resize x200 -write '%[filename:foobar]_small.jpg' *.jpg
+
+to multiple convert
+
+mogrify -set filename:foobar %t -write '%[filename:foobar]_orig.jpg' *.jpg
+
+
+-set <key> <value> 
+
+sets key to value for later use
+
+but 
+any kind of operation that alters filename has to be "filename:<x>"
+for the key
+
+the value %t in this case is the http://imagemagick.org/script/escape.php
+
+
+see also http://www.imagemagick.org/discourse-server/viewtopic.php?f=1&t=16486

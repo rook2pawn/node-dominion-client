@@ -15,9 +15,10 @@
   ],
   "dependencies" : {
     "ecstatic" : "",
-    "socket.io" : ""
+    "socket.io" : "",
+    "hashish" : "",
+    "hat" : ""
   },
   "author": "David Wee <rook2pawn@gmail.com> (http://rook2pawn.com)",
-  "license": "BSD",
-  "gitHead": "cdd0b999cdedc5eb93c775fcc51aa18057481adc"
+  "license": "BSD"
 }

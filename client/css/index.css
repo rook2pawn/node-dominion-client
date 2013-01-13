@@ -1,0 +1,15 @@
+.floatLeft {
+    float:left;
+}
+.clear {
+    clear:both;
+}
+div#hand {
+    position:relative;
+    border:thin solid blue;
+}
+#hand .card{
+    float:left;
+    width:156px;
+    height:200px;
+}

@@ -1,0 +1,43 @@
+.clear {
+    clear:both;
+}
+.floatLeft {
+    float:left;
+}
+.floatRight {
+    float:right;
+}
+.marginLeft {
+    margin-left:1em;
+}
+.marginRight {
+    margin-right:1em;
+}
+.marginTop {
+    margin-top:1em;
+}
+.marginBottom {
+    margin-bottom:1em;
+}
+.verticalAlign {
+    vertical-align:middle;
+}
+.highlight {
+    background-color:black;
+    color:white;
+}
+.floatLeft {
+    float:left;
+}
+.clear {
+    clear:both;
+}
+div#hand {
+    position:relative;
+    border:thin solid blue;
+}
+#hand .card{
+    float:left;
+    position:absolute;
+    border:thin solid red;
+}
