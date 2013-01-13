@@ -4,12 +4,20 @@
 .clear {
     clear:both;
 }
+div#focus {
+    width:296px;
+    height:473px;
+    border:thin dotted black;
+    padding:2px;
+}
 div#hand {
     position:relative;
     border:thin solid blue;
 }
 #hand .card{
+    cursor:pointer;
     float:left;
     width:156px;
     height:200px;
+    margin:5px;
 }

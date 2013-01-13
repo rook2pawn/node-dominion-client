@@ -2,6 +2,9 @@ var http = require('http');
 var path = require('path');
 var ecstatic = require('ecstatic')(path.join(__dirname,"/client"));
 var web = http.createServer(ecstatic);
+var lib = require('./lib');
+
+
 web.listen(5500);
 console.log("listening on 5500");
 var server = require('socket.io').listen(web);
@@ -12,4 +15,5 @@ server.configure(function() {
 });
 server.sockets.on('connection',function(socket) {
     console.log("Connect!");
+    lib.connect(socket);
 });

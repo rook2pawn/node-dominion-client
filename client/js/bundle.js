@@ -1129,11 +1129,24 @@ Hash(db).forEach(function(list,key) {
         cards[name] = card;
     });
 });
-
+console.log(cards['copper']);
 exports = module.exports = cards;
 });
 
 require.define("/cards/db.js",function(require,module,exports,__dirname,__filename,process){var db = {
+  "basecards" : [
+    { "name" :  "colony","expansion":'basecards'},
+    { "name" :  "copper","expansion":'basecards'},
+    { "name" :  "curse","expansion":'basecards'},
+    { "name" :  "duchy","expansion":'basecards'},
+    { "name" :  "estate","expansion":'basecards'},
+    { "name" :  "gold","expansion":'basecards'},
+    { "name" :  "platinum","expansion":'basecards'},
+    { "name" :  "potion","expansion":'basecards'},
+    { "name" :  "province","expansion":'basecards'},
+    { "name" :  "silver","expansion":'basecards'},
+    { "name" :  "trash","expansion":'basecards'}
+  ],
   "Prosperity" : [
     {
       "description": "When you play this, it's worth 1 Coin per Treasure card you have in play (counting this).", 
@@ -4514,7 +4527,7 @@ var rack = hat.rack(128,10,2);
 var common = require('../common');
 var cards = require('../cards/cards');
 
-var hand = ['Cellar','Bank','City','Market','Village'];
+var hand = ['Cellar','Bank','City','Market','Village','copper','copper'];
 
 var small = function(path) {
     var base = path.slice(0,path.indexOf('.'));
