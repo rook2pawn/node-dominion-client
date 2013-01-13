@@ -1,0 +1,23 @@
+{
+  "name": "node-dominion",
+  "version": "0.0.0",
+  "description": "dominion on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rook2pawn/node-dominion.git"
+  },
+  "keywords": [
+    "dominion"
+  ],
+  "dependencies" : {
+    "ecstatic" : "",
+    "socket.io" : ""
+  },
+  "author": "David Wee <rook2pawn@gmail.com> (http://rook2pawn.com)",
+  "license": "BSD",
+  "gitHead": "cdd0b999cdedc5eb93c775fcc51aa18057481adc"
+}
